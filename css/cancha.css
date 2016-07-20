@@ -1,0 +1,41 @@
+/* Inserta tu CSS aqui */
+
+.marco, .centro, .porteria1, .porteria2 {position: absolute;
+							border: 1.5px white solid;}
+
+.cancha {background-color: lightgreen;
+		width: 900px;
+		height: 600px;
+		position: absolute;}
+
+.marco {width: 870px;
+	   height: 570px;
+	   top: 12px;
+	   left: 12.5px;}
+
+.porteria1 {width: 100px;
+	height: 160px;
+	right: 769px;
+	top: 200px;}
+
+.centro {border-radius: 100%;
+		 width: 200px;
+		 height: 200px;
+		 top: 180px;
+		 left: 320px;}
+
+.porteria2 {width: 100px;
+	height: 160px;
+	left: 769px;
+	top: 200px;}
+
+.porteria1>img, .centro>img, .porteria2>img{position: relative;} 
+
+.porteria1>img {top: 5px;
+	left: 89px; }
+
+.centro>img {top: -80px;
+	left: 100px; }
+
+.porteria2>img {top: 130px;
+	right: 30px;}
